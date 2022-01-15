@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrapcdn/3.4.0/css/bootstrapcdn.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrapcdn/3.4.0/js/bootstrapcdn.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="quiz_game.css">
+</head>
+
+<body style="background-color: rgba(255, 42, 42, 0.931);" class="container">
+    <center>
+    <h4 id="player1_name"></h4><span id="player1_score"></span>
+    <h4 id="player2_name"></h4><span id="player2_score"></span>
+
+    <div class="container">
+    
+<h1 style="color: white;">Maths Quiz</h1>
+<br>
+<h2 id="question">Question Turn - </h2><label id="qustion_name"></label>
+<h2 id="answer">Answer Turn -</h2><label id="answer_name"></label>
+
+    </div>
+    <br>
+    <div style="color: white;" class="btn">
+<label id="sum"></label>
+<h4 style="color: black;">Answer:</h4><input type="text">
+<br>
+<br>
+<button onclick="check();" style="background-color: rgba(72, 228, 66, 0.904);height: 30;width: 70;border-radius: 25px;border-color:rgba(72, 228, 66, 0.904) ;" >Check</button>
+    </div>
+<br>
+<h3>Number 1</h4>
+<input id="number1" style="width: 700;height: 25px; border-radius: 10px;border-color: white;" placeholder="Number 1">
+
+<h3>Number 2</h4>
+<input id="number1" style="width: 700;height: 25px; border-radius: 10px;border-color: white;"  placeholder="Number 2">
+</center>
+    <script id="quiz_game_page.js"></script>
+</body>
+
+</html>
